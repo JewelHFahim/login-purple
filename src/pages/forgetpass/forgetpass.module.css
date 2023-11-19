@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@100;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/orange/lower-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 75vw;
+  height: 68vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffd79e;
+  box-shadow: 16px 17px 40px 0px rgba(167, 111, 31, 0.3),
+    -34px -30px 40px 0px #fff;
+}
+
+.imageSection {
+  width: 55%;
+  height: 100%;
+  background-image: url("../../assets/orange/upper-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imageText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageText h1 {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.188rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.imageText p {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  color: #000 !important;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.formSection {
+  width: 45%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signinForm{
+  width: 22.7vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 14px;
+}
+
+.signinForm h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #a73c53;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+.eMail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+
+.eMail label {
+  margin-bottom: 5px;
+  margin-left: 8px;
+  font-family: "Inter", sans-serif;
+  color: #a73c53;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.eMail input {
+  width: 96%;
+  height: 6.5vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 15px;
+  border-radius: 15px;
+  border: 1px solid #7d3b4f;
+  background: #fff;
+  transition-duration: 2s ease;
+  outline-color: #a73c53;
+}
+
+.radio-cont {
+  width: 100%;
+  margin-top: -5px;
+}
+
+
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn button {
+  margin-top: 4.6vh;
+  width: 13.4vw;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #7d3b4f;
+  background: #fff;
+  color: #f18067;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+
+/* ================>> TABLET RESPONSIVE (max-w-1024px) <<===============*/
+@media only screen and (max-width: 1024px) {
+  .mainContainer {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .subContainer {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 81.25vw;
+    height: 67.5vh;
+  }
+
+  .imageSection {
+    width: 55%;
+    height: 100%;
+  }
+
+  .imageText h1 {
+    font-size: 20.5px;
+    line-height: 25px;
+  }
+
+  .imageText p {
+    width: 70%;
+    font-size: 9.5px;
+    line-height: 10px;
+  }
+
+  .signinForm{
+    width: 25.2vw;
+    height: 100%;
+    row-gap: 8px;
+  }
+
+  .signinForm h1 {
+    font-size: 23.5px;
+  }
+
+  
+  
+  .eMail label {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 10.5px;
+  }
+
+
+  .eMail input {
+    width: 24vw;
+    height: 6.25vh;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 12px;
+  }
+
+
+  .loginBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginBtn button {
+    margin-top: 6.4vh;
+    width: 15vw;
+    height: 28px;
+    border-radius: 8.5px;
+    font-size: 13px;
+  }
+
+}
+
+/* ================>> MOBILE RESPONSIVE (max-w-600px) <<===============*/
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subContainer {
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .imageSection {
+    background-image: none;
+    width: 100vw;
+    height: 42vh;
+    background: #ffd79e;
+    background-image: url("../../assets/orange/mobile-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .imageText h1 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+
+  .imageText p {
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.7;
+  }
+
+  /* Form Section Start */
+  .formSection {
+    background-image: none;
+    width: 100vw;
+    height: 58vh;
+    background-color: white;
+    padding-top: 40px;
+  }
+
+  .signinForm{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    padding: 0px 40px;
+    row-gap: 16px;
+  }
+
+  .signinForm h1 {
+    font-size: 27px;
+  }
+
+  
+  
+  .eMail label {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+
+  .eMail input {
+    width: 95%;
+    height: 5.68vh;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 12px;
+  }
+
+  /* Submit Button */
+  .loginBtn button {
+    margin-top: 3.7vh;
+    width: 175px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+}
