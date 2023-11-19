@@ -1,8 +1,6 @@
 import styles from "./forgetpass.module.css";
 
-
 const Forgetpass = () => {
-
 
   return (
     <section className={styles.mainContainer}>

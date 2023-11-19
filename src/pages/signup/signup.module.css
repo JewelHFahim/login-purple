@@ -6,10 +6,11 @@ body {
   box-sizing: border-box;
 }
 
+/* 23AC62 */
 .mainContainer {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/orange/lower-bg.svg");
+  background-image: url("../../assets/lower-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,15 +28,15 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #ffd79e;
-  box-shadow: 16px 17px 40px 0px rgba(167, 111, 31, 0.3),
+  background: #23AC62;
+  box-shadow: 16px 17px 40px 0px #90dbb3,
     -34px -30px 40px 0px #fff;
 }
 
 .imageSection {
   width: 55%;
   height: 100%;
-  background-image: url("../../assets/orange/upper-bg.svg");
+  background-image: url("../../assets/upper-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +101,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #a73c53;
+  color: #23AC62;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -126,7 +127,7 @@ body {
 
 .viewIcon {
   position: absolute;
-  right: 20px;
+  right: 30px;
 }
 
 .userName label,
@@ -135,7 +136,7 @@ body {
   margin-bottom: 5px;
   margin-left: 8px;
   font-family: "Inter", sans-serif;
-  color: #a73c53;
+  color: #23AC62;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -152,10 +153,10 @@ body {
   font-size: 20px;
   padding-left: 15px;
   border-radius: 15px;
-  border: 1px solid #7d3b4f;
+  border: 1px solid #23AC62;
   background: #fff;
   transition-duration: 2s ease;
-  outline-color: #a73c53;
+  outline-color: #23AC62;
 }
 
 .radioCont {
@@ -176,7 +177,7 @@ body {
   flex-shrink: 0;
   border-radius: 15px;
   border: 1px solid #000;
-  accent-color: #a73c53;
+  accent-color: #23AC62;
 }
 
 .remember label {
@@ -209,9 +210,9 @@ body {
   height: 47px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1px solid #7d3b4f;
+  border: 1px solid #23AC62;
   background: #fff;
-  color: #f18067;
+  color: #23AC62;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -372,8 +373,8 @@ body {
     background-image: none;
     width: 100vw;
     height: 42vh;
-    background: #ffd79e;
-    background-image: url("../../assets/orange/mobile-bg.svg");
+    background: #23AC62;
+    background-image: url("../../assets/mobile-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -5,11 +5,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 23AC62 */
 .mainContainer {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/orange/lower-bg.svg");
+  background-image: url("../../assets/lower-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,15 +27,14 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #ffd79e;
-  box-shadow: 16px 17px 40px 0px rgba(167, 111, 31, 0.3),
-    -34px -30px 40px 0px #fff;
+  background: #23ac62;
+  box-shadow: 16px 17px 40px 0px #90dbb3, -34px -30px 40px 0px #fff;
 }
 
 .imageSection {
   width: 55%;
   height: 100%;
-  background-image: url("../../assets/orange/upper-bg.svg");
+  background-image: url("../../assets/upper-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +84,7 @@ body {
   align-items: center;
 }
 
-.signinForm{
+.signinForm {
   width: 22.7vw;
   height: 45vh;
   display: flex;
@@ -100,14 +99,12 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #a73c53;
+  color: #23ac62;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
-
 
 .eMail {
   width: 100%;
@@ -116,19 +113,16 @@ body {
   align-items: start;
 }
 
-
-
 .eMail label {
   margin-bottom: 5px;
   margin-left: 8px;
   font-family: "Inter", sans-serif;
-  color: #a73c53;
+  color: #23ac62;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-
 
 .eMail input {
   width: 96%;
@@ -138,17 +132,11 @@ body {
   font-size: 20px;
   padding-left: 15px;
   border-radius: 15px;
-  border: 1px solid #7d3b4f;
+  border: 1px solid #23ac62;
   background: #fff;
   transition-duration: 2s ease;
-  outline-color: #a73c53;
+  outline-color: #23ac62;
 }
-
-.radio-cont {
-  width: 100%;
-  margin-top: -5px;
-}
-
 
 .loginBtn {
   display: flex;
@@ -163,9 +151,9 @@ body {
   height: 47px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1px solid #7d3b4f;
+  border: 1px solid #23ac62;
   background: #fff;
-  color: #f18067;
+  color: #23ac62;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -173,7 +161,6 @@ body {
   line-height: normal;
   cursor: pointer;
 }
-
 
 /* ================>> TABLET RESPONSIVE (max-w-1024px) <<===============*/
 @media only screen and (max-width: 1024px) {
@@ -205,7 +192,7 @@ body {
     line-height: 10px;
   }
 
-  .signinForm{
+  .signinForm {
     width: 25.2vw;
     height: 100%;
     row-gap: 8px;
@@ -215,14 +202,11 @@ body {
     font-size: 23.5px;
   }
 
-  
-  
   .eMail label {
     margin-bottom: 5px;
     margin-left: 5px;
     font-size: 10.5px;
   }
-
 
   .eMail input {
     width: 24vw;
@@ -231,7 +215,6 @@ body {
     padding-left: 10px;
     border-radius: 12px;
   }
-
 
   .loginBtn {
     display: flex;
@@ -247,7 +230,6 @@ body {
     border-radius: 8.5px;
     font-size: 13px;
   }
-
 }
 
 /* ================>> MOBILE RESPONSIVE (max-w-600px) <<===============*/
@@ -277,8 +259,8 @@ body {
     background-image: none;
     width: 100vw;
     height: 42vh;
-    background: #ffd79e;
-    background-image: url("../../assets/orange/mobile-bg.svg");
+    background: #23ac62;
+    background-image: url("../../assets/mobile-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -305,7 +287,7 @@ body {
     padding-top: 40px;
   }
 
-  .signinForm{
+  .signinForm {
     width: 100%;
     height: 100%;
     justify-content: start;
@@ -317,13 +299,10 @@ body {
     font-size: 27px;
   }
 
-  
-  
   .eMail label {
     font-size: 12px;
     margin-left: 5px;
   }
-
 
   .eMail input {
     width: 95%;
@@ -333,7 +312,6 @@ body {
     border-radius: 12px;
   }
 
-  /* Submit Button */
   .loginBtn button {
     margin-top: 3.7vh;
     width: 175px;
@@ -341,5 +319,4 @@ body {
     border-radius: 10px;
     font-size: 15px;
   }
-
 }
