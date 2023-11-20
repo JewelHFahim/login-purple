@@ -6,6 +6,10 @@ body {
   box-sizing: border-box;
 }
 
+/*main color- #9142FF */
+/*shadow color- #c0a6e5 */
+
+
 .mainContainer {
   width: 100vw;
   height: 100vh;
@@ -27,7 +31,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: 16px 17px 40px 0px #90dbb3,
+  background: #9142FF;
+  box-shadow: 16px 17px 40px 0px #c0a6e5,
     -34px -30px 40px 0px #fff;
 }
 
@@ -99,7 +104,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #23AC62;
+  color: #9142FF;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -134,7 +139,7 @@ body {
   margin-bottom: 5px;
   margin-left: 8px;
   font-family: "Inter", sans-serif;
-  color: #23AC62;
+  color: #9142FF;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -150,10 +155,10 @@ body {
   font-size: 20px;
   padding-left: 15px;
   border-radius: 15px;
-  border: 1px solid #23AC62;
+  border: 1px solid #9142FF;
   background: #fff;
   transition-duration: 2s ease;
-  outline-color: #23AC62;
+  outline-color: #9142FF;
 }
 
 .radioCont {
@@ -174,7 +179,7 @@ body {
   flex-shrink: 0;
   border-radius: 15px;
   border: 1px solid #000;
-  accent-color: #23AC62;
+  accent-color: #9142FF;
 }
 
 .remember label {
@@ -199,9 +204,9 @@ body {
   height: 47px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1px solid #23AC62;
+  border: 1px solid #9142FF;
   background: #fff;
-  color: #23AC62;
+  color: #9142FF;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -355,7 +360,7 @@ body {
     background-image: none;
     width: 100vw;
     height: 42vh;
-    background: #23AC62;
+    background: #9142FF;
     background-image: url("../../assets/mobile-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
