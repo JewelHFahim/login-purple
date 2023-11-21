@@ -1,5 +1,10 @@
 import { useState } from "react";
 import styles from "./SignIn.module.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(faEye, faEyeSlash);
 
 const SignIn = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -38,7 +43,11 @@ const SignIn = () => {
                   id="passwordInput"
                 />
                 <i className={styles.viewIcon} onClick={togglePassword}>
-                  {passwordVisible ? "👁️" : "👁️‍🗨️"}
+                  {passwordVisible ? (
+                    <FontAwesomeIcon icon="eye-slash" />
+                  ) : (
+                    <FontAwesomeIcon icon="eye" />
+                  )}
                 </i>
               </div>
             </div>

@@ -1,6 +1,10 @@
 import { useState } from "react";
 import styles from "./signup.module.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+library.add(faEye, faEyeSlash);
 const Signup = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
@@ -43,7 +47,11 @@ const Signup = () => {
                   id="passwordInput"
                 />
                 <i className={styles.viewIcon} onClick={togglePassword}>
-                  {passwordVisible ? "👁️" : "👁️‍🗨️"}
+                  {passwordVisible ? (
+                    <FontAwesomeIcon icon="eye-slash" />
+                  ) : (
+                    <FontAwesomeIcon icon="eye" />
+                  )}
                 </i>
               </div>
             </div>
@@ -52,8 +60,7 @@ const Signup = () => {
               <div className={styles.remember}>
                 <input type="radio" id="html" name="remember" value="HTML" />
                 <label htmlFor="html">
-                  Agree to our <span>Terms of Use</span> &
-                  <span>Privacy policy</span>
+                  Agree to our <span>Terms of Use</span> & <span> Privacy policy</span>
                 </label>
               </div>
             </div>

@@ -21,10 +21,10 @@ const Placecode = () => {
             <div className={styles.placeCode}>
               <label>Place Code:</label>
               <div className={styles.codeFields}>
-                <input type="text" />
-                <input type="text" />
-                <input type="text" />
-                <input type="text" />
+                <input type="number" />
+                <input type="number" />
+                <input type="number" />
+                <input type="number" />
               </div>
             </div>
 
